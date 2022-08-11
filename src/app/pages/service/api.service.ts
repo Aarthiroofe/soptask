@@ -11,8 +11,6 @@ export class ApiService {
       'Authorization':'Token 0aeb15de83ef6fb02695f2ce0d99374046f32eb9'
     })
   }
-
- 
   constructor(private http : HttpClient) { }
   
  getdata(data:any):Observable<any>{
