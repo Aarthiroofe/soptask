@@ -1,1 +1,28 @@
-<p>dashboard works!</p>
+<div class="container-fluid">
+    <div class="row header">
+        <div class="col-xl-6 col-lg-6 col-md-6 logo">
+            <img class="logo" src="/assets/logo.png" alt="logoimg">
+        </div>
+
+        <div class="col-xl-6 col-lg-6 col-md-6 topright">
+            <img class="notification" src="/assets/notification.png">
+            <img class="head" src="/assets/headerImg.png" alt="headerImg">
+            <p>JohnDoo </p>
+            <img class="arrow" src="/assets/arrowDown.png" alt="arrowDown">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-xl-2 col-lg-2 col-md-2 sidebar">
+            <ul>
+                <li class="pages" style="background-color:  rgba(213,233,240,255);border-right: 4px solid rgba(3,104,154,255);" (click)="Dashboardpage()"> <img src="/assets/DashboardFilled.png"> DashBord</li>
+                <li class="pages" (click)="Repositorypage()"> <img src="/assets/SopRepository.png">SOP Repository</li>
+                <li class="pages" (click)="Monitoringpage()"> <img src="/assets/SopMonitoring.png">SOP Monitoring</li>
+                <li class="pages"  (click)="Reportspage()"> <img
+                        style="padding:10px;" src="/assets/reportFilled.png"> Reports</li>
+            </ul>
+        </div>
+        <div class="col-12 col-xl-10 col-lg-10 col-md-10">
+            <p>Dashboard page</p>
+        </div>
+    </div>
+</div>
